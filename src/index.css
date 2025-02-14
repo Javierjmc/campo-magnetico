@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+.sombra{
+    box-shadow: 1px 1px 5px #B5D99C;
+}
+
+button:hover{
+    opacity:85%;    
+}
+button:active{
+    opacity:75%;    
+}
+@media (width>500px) {
+    .fila{
+        flex-direction: row;
+    }
+    .imagen-espira{
+        width: 250px;
+    }
+    input{
+        width: 32%;
+    } 
+  }
